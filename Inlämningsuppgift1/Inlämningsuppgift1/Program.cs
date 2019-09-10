@@ -9,15 +9,18 @@ namespace Inlämningsuppgift1
             Random generator = new Random();
             int randomNumber = generator.Next(1, 100);
             int number = 0;
-            Console.WriteLine(randomNumber);
+            int i = 0;
             while (number != randomNumber)
             {
                 Console.WriteLine("Skriv ett tal mellan 1 till 100: ");
-                int number = int.Parse(Console.ReadLine());
+                number = int.Parse(Console.ReadLine());
+                i++;
                 if (number > randomNumber)
-                    Console.WriteLine("Det gissade talet är för högt");
-                if (number < randomNumber)
-                    Console.WriteLine("Det gissade talet är för lågt");
+                    Console.WriteLine($"{number} är för högt");
+                else if (number < randomNumber)
+                    Console.WriteLine($"{number} är för lågt");
+                else
+                    Console.WriteLine($"Du gissade rätt, talet var {randomNumber}. Det tog {i} försök!");
             }
         }
     }

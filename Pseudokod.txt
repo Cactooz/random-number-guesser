@@ -1,0 +1,13 @@
+Skapa en generator som genererar ett slumptal mellan 1 och 100
+Spara talet som heltals variabeln randomNumber
+Skapa heltals variabeln number och tries och sätt dem till 0
+Medans number inte är lika med randomNumber
+  Skriv "Skriv ett tal mellan 0 och 100"
+  Be användaren om talet och spara den som number
+  Öka tries med 1
+  Om number är mer än randomNumber
+    Skriv "Numret är för högt"
+  Om number är mindre än randomNumber
+    Skriv "Numret än för litet"
+Om talet är lika med randomNumber fortsätt med:
+Skriv "Du gissade rätt, talet var x. Det tog x försök!"

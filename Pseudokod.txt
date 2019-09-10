@@ -1,4 +1,4 @@
-Skapa en generator som genererar ett slumptal mellan 1 och 100
+Genererar ett slumptal mellan 1 och 100
 Spara talet som heltals variabeln randomNumber
 Skapa heltals variabeln number och tries och sätt dem till 0
 Medans number inte är lika med randomNumber

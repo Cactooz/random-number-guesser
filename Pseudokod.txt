@@ -9,5 +9,4 @@ Medans number inte är lika med randomNumber
     Skriv "Numret är för högt"
   Om number är mindre än randomNumber
     Skriv "Numret än för litet"
-Om talet är lika med randomNumber fortsätt med:
-Skriv "Du gissade rätt, talet var x. Det tog x försök!"
+Skriv "Du gissade rätt, talet var randomNumber. Det tog tries försök!"
